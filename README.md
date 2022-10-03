@@ -1,7 +1,7 @@
 # CoffeeBeans
 CSCI 466 group project
 
-Project that entails creating a functioning ecommerce website using mainly PHP, Javascript, and SQL.
+Project that entails creating a functioning ecommerce website using mainly PHP, SQL, HTML and CSS.
 The website allows allows users to make purchases of a variety of coffee beans. With the option of making an
 account to view order status.
 
