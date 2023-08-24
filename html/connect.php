@@ -1,9 +1,10 @@
 <?php
 /* Database credentials. */
-$dsn = "mysql:host=courses;dbname=***REMOVED***";
-$username = "***REMOVED***";
-$password = "***REMOVED***";
- 
+$config = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . "/../config/config.ini");
+$dsn = "mysql:host={$config['MYSQL_HOST']};dbname={$config['MYSQL_DATABASE']}";
+$username = $config['MYSQL_USER'];
+$password = $config['MYSQL_PASSWORD'];
+
 /* Attempt to connect to MySQL database */
 try{
     $pdo = new PDO($dsn, $username, $password);
