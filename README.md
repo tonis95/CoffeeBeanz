@@ -1,4 +1,6 @@
 # CoffeeBeans
+*Currently reworking the CSS/design of the site.*
+
 CSCI 466 group project
 
 Project that entails creating a functioning ecommerce website using mainly PHP, SQL, HTML and CSS.
