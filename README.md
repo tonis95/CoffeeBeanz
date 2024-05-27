@@ -1,5 +1,4 @@
-# CoffeeBeans
-*Currently reworking the CSS/design of the site.*
+# CoffeeBeanz
 
 CSCI 466 group project
 
